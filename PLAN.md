@@ -1,25 +1,28 @@
-# תוכנית עבודה (Execution Plan) - MG4HOME SEO Pipeline
+# Project Plan
 
-## שלב 1: הקמת תשתית הפרויקט
-* פתיחת רפוזיטורי ב-GitHub.
-* הגדרת קובצי האפיון (PRD, PLAN, TODO).
-* יצירת קובץ ההרצה הראשי (`main.py`).
+## Process Type
 
-## שלב 2: קידוד סביבת הסוכנים (CrewAI)
-* יצירת אובייקטים עבור 4 סוכנים (תחקירן, כותב, איש SEO, בקר איכות).
-* לכל סוכן תוגדר מטרה (Goal), תפקיד (Role), ורקע (Backstory) בהתאם למסמך הדרישות.
-* הפעלת שקיפות תהליך (`verbose=True`) לכל סוכן לצורכי מעקב.
+Sequential Pipeline
 
-## שלב 3: בניית המשימות (Tasks)
-* כתיבת משימה לכל סוכן הכוללת תיאור מדויק (`description`) ותוצר מצופה (`expected_output`).
-* שיוך כל משימה לסוכן הרלוונטי.
+## Agents
 
-## שלב 4: אורקסטרציה והרצה
-* חיבור הסוכנים והמשימות לאובייקט `Crew` מרכזי.
-* הגדרת שיטת העבודה כסדרתית (`Process.sequential`) - פלט של סוכן אחד הופך לקלט של הבא אחריו.
-* הפעלת המערכת (`kickoff`) עם קלט ראשוני (למשל: "שואב אבק רובוטי חכם").
+1. Product Research Agent
+2. SEO Specialist Agent
+3. Content Writer Agent
+4. Quality Reviewer Agent
 
-## שלב 5: סיום ותיעוד
-* וידוא ריצה תקינה של המערכת מתחילתה ועד סופה.
-* שמירת הלוגים (הטקסט שרץ במסוף) וצילום מסך של ההרצה.
-* יצירת דוח מסכם בקובץ `README.md` הכולל את הוכחות הריצה.
+## Workflow
+
+Product Research
+↓
+SEO Optimization
+↓
+Article Writing
+↓
+Quality Review
+↓
+Final Article
+
+## Expected Result
+
+SEO article ready for publication.
