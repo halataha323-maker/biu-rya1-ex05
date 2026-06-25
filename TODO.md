@@ -1,11 +1,31 @@
-# רשימת משימות (TODO) - פרויקט CrewAI
+# TODO
 
-- [x] פתיחת רפוזיטורי בגיטהאב (GitHub).
-- [x] העלאת קובץ דרישות (`PRD.md`).
-- [x] העלאת קובץ תוכנית עבודה (`PLAN.md`).
-- [x] יצירת קובץ משימות (`TODO.md`).
-- [ ] העלאת קובץ הקוד הראשי (`main.py`).
-- [ ] הרצת הקוד במסוף וצילום מסך של התוצאות והלוגים.
-- [ ] כתיבת קובץ `README.md` (דוח מסכם) הכולל את צילומי המסך.
-- [ ] מילוי תבנית ה-PDF עם קוד הקבוצה.
-- [ ] הגשת הקישור לגיטהאב וה-PDF במודל (Moodle) על ידי כל חברי הקבוצה.
+## Setup
+
+- [ ] Install CrewAI
+- [ ] Configure OpenAI API
+
+## Agents
+
+- [ ] Product Research Agent
+- [ ] SEO Specialist Agent
+- [ ] Content Writer Agent
+- [ ] Quality Reviewer Agent
+
+## Tasks
+
+- [ ] Product Analysis
+- [ ] Keyword Research
+- [ ] Article Creation
+- [ ] Quality Validation
+
+## Testing
+
+- [ ] Run Crew
+- [ ] Verify Outputs
+- [ ] Take Screenshots
+
+## Documentation
+
+- [ ] Update README
+- [ ] Upload to GitHub
